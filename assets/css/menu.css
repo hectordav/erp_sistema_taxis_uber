@@ -1,0 +1,84 @@
+.navbar-inverse { background-color: #111111;
+padding: 1.55%;
+font-size: 14px;
+letter-spacing: 1px;
+font-weight: 500;
+}
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { 
+	background-color: #111111;
+	align:"right";
+}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { 
+    background-color: #111111
+}
+.dropdown-menu {
+ background-color: #FFFFFF
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { 
+    background-color: #428BCA
+}
+.navbar-inverse { 
+    background-image: none; 
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { 
+    background-image: none; 
+}
+.navbar-inverse { 
+    border-color: #111111
+}
+.navbar-inverse .navbar-brand { 
+    color: #999999
+}
+.navbar-inverse .navbar-brand:hover { 
+    color: #F7A413
+}
+.navbar-inverse .navbar-nav>li>a { 
+    color: #FFFFFF
+}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { 
+    color: #F7A413
+}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { 
+    color: #FFFFFF
+}
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+ color: #F7A413
+}
+.dropdown-menu>li>a { 
+    color: #111111
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { 
+    color: #FFFFFF
+}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { 
+    border-top-color: #999999
+}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { 
+    border-top-color: #FFFFFF
+}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { 
+    border-bottom-color: #999999
+}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { 
+    border-bottom-color: #FFFFFF
+}
+.x_panel{
+    position: center;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 17px;
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #E6E9ED;
+    box-shadow: 2px 2px 5px #999;
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    column-break-inside: avoid;
+    opacity: 1;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    transition: all .2s ease;
+}
+

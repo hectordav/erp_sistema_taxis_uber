@@ -1,0 +1,24 @@
+.cart-header,.cart-header2,.cart-header3 {
+  position: relative;
+      margin-top: 2em;
+}
+.cart-sec {
+    margin-bottom: 3em;
+    background-color: #F4F4F4;
+    padding: 20px;
+}
+.cart-item-info {
+    width: 75%;
+    float: left;
+}
+ul.qty {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.delivery {
+    margin-top: 3em;
+}
+.cart-items {
+    padding: 3em 0;
+}

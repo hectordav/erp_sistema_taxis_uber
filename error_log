@@ -1,0 +1,21 @@
+[27-Mar-2017 21:43:03 UTC] PHP Fatal error:  require_once(): Failed opening required 'base_facebook.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/wwwtetransportam/public_html/taxi/application/libraries/facebook.php on line 18
+[27-Mar-2017 21:44:17 UTC] PHP Fatal error:  require_once(): Failed opening required 'base_facebook.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/wwwtetransportam/public_html/taxi/application/libraries/facebook.php on line 18
+[27-Mar-2017 21:46:07 UTC] PHP Fatal error:  require_once(): Failed opening required 'base_facebook.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/wwwtetransportam/public_html/taxi/application/libraries/facebook.php on line 18
+[31-Mar-2017 14:12:45 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/wwwtetransportam/public_html/reservas/taxi/system/database/drivers/mysql/mysql_driver.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/wwwtetransportam/public_html/reservas/taxi/system/database/DB.php on line 140
+[12-Apr-2017 15:36:05 America/Bogota] PHP Fatal error:  require_once(): Failed opening required 'base_facebook.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/wwwtetransportam/public_html/reservas/taxi/application/libraries/facebook.php on line 18
+[12-Apr-2017 15:46:51 America/Bogota] PHP Parse error:  syntax error, unexpected 'define' (T_STRING), expecting function (T_FUNCTION) in /home/wwwtetransportam/public_html/reservas/taxi/application/controllers/login.php on line 5
+[12-Apr-2017 15:47:17 America/Bogota] PHP Fatal error:  require_once(): Failed opening required '/home/wwwtetransportam/public_html/reservas/taxi/application/controllers/facebook-php-sdk-v4-5.0-dev/src/Facebook/autoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/wwwtetransportam/public_html/reservas/taxi/application/controllers/login.php on line 3
+[12-Apr-2017 15:54:37 America/Bogota] PHP Fatal error:  require_once(): Failed opening required 'base_facebook.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/wwwtetransportam/public_html/reservas/taxi/application/libraries/facebook.php on line 18
+[12-Apr-2017 15:56:58 America/Bogota] PHP Fatal error:  Call to a member function library() on null in /home/wwwtetransportam/public_html/reservas/taxi/application/config/facebook.php on line 6
+[12-Apr-2017 15:57:51 America/Bogota] PHP Fatal error:  Call to a member function getLoginUrl() on null in /home/wwwtetransportam/public_html/reservas/taxi/application/controllers/login.php on line 27
+[12-Apr-2017 16:34:20 America/Bogota] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'The default access token must be of type "string" or Facebook\AccessToken' in /home/wwwtetransportam/public_html/reservas/taxi/application/libraries/Facebook/Facebook.php:298
+Stack trace:
+#0 /home/wwwtetransportam/public_html/reservas/taxi/application/libraries/facebooksdk.php(43): Facebook\Facebook->setDefaultAccessToken(NULL)
+#1 /home/wwwtetransportam/public_html/reservas/taxi/application/controllers/login.php(34): FacebookSDK->getUserData(NULL)
+#2 [internal function]: login->iniciar_sesion_facebook()
+#3 /home/wwwtetransportam/public_html/reservas/taxi/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/wwwtetransportam/public_html/reservas/taxi/index.php(202): require_once('/home/wwwtetran...')
+#5 {main}
+  thrown in /home/wwwtetransportam/public_html/reservas/taxi/application/libraries/Facebook/Facebook.php on line 298
+[13-Apr-2017 18:59:39 America/Bogota] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/wwwtetransportam/public_html/reservas/taxi/application/controllers/login.php on line 133
+[13-Apr-2017 19:45:13 America/Bogota] PHP Fatal error:  Class 'IonicPush' not found in /home/wwwtetransportam/public_html/reservas/taxi/application/controllers/login.php on line 133
